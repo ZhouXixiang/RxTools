@@ -8,6 +8,7 @@ import com.tamsiree.rxarcgiskit.layer.RxLayerInfoFactory.getLayerUrl
 import java.io.*
 import java.net.HttpURLConnection
 import java.net.URL
+import kotlin.jvm.Throws
 
 class RxMapLayer : ImageTiledLayer {
     private var layerInfo: RxMapLayerInfo

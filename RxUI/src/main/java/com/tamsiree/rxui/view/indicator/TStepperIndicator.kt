@@ -1144,7 +1144,7 @@ class TStepperIndicator : View, ViewPager.OnPageChangeListener {
                 color = t.getColor(0, ContextCompat.getColor(context, R.color.stpi_default_primary_color))
                 t.recycle()
             } else {
-                val t = context.obtainStyledAttributes(intArrayOf(R.attr.colorPrimary))
+                val t = context.obtainStyledAttributes(intArrayOf(android.R.attr.colorPrimary))
                 color = t.getColor(0, ContextCompat.getColor(context, R.color.stpi_default_primary_color))
                 t.recycle()
             }
